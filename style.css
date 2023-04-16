@@ -1,0 +1,24 @@
+body{
+    background-color: powderblue;
+}
+P{
+    color:blue;
+} /* for the paragraph using p as a character or you can siply use # with the id*/
+#second{
+    color:red ;
+}
+.third{
+    color:brown;
+
+}
+
+/*desecend*/
+.main-div h1{
+    background-color: olive;
+}
+
+/*adjacent*/
+h1+h2{
+    background-color: brown;
+    color:white;
+}
