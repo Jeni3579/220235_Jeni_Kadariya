@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    }
+    h1 {
+    color: blue;
+    }
+    /*for the paragraph line using p as character or you can simply use # with the id */
+    p { 
+    color: green;
+    }
+/* after . class name is written */
+    .third{
+        color:red;
+    }
+
+    /*descendant*/
+    .main-div h1{
+        background-color: yellow;
+    }
+
+    /*adjacent*/
+    h1+h2{
+        background-color: orange;
+        color:white;
+    }
+    /*typography*/
+    h1{
+        font-family: Arial,Sans-serif;
+        font-size: 50px;
+        font-weight:100;
+        font-style:italic;
+    }
+    
+    p{
+        font-family:Arial,Serif;
+        font-size:16px;
+        color:blueviolet;
+    }
+    body{
+        background-image: linear-gradient(to right, red, blue, green)
+    }

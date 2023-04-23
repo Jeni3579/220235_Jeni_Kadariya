@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		h1 {
+			color: blue;
+			font-size: 36px;
+		}
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			background-color: #f2f2f2;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+		input[type=text], textarea {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			resize: vertical;
+		}
+		input[type=submit] {
+			background-color: blue;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover {
+			background-color: #0052cc;
+		}
+	</style>
+</head>
+<body>
+	<h1>Contact Us</h1>
+	<p>Please fill out the form below to contact us.</p>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+		
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" placeholder="Your email.." required>
+		
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" placeholder="Subject.." required>
+		
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" placeholder="Write something.." required></textarea>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
