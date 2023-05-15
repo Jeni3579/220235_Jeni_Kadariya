@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+        function myFun(){
+            document.getElementById("demo").classList.add("dark-mode");
+        }
+        function myFun2(){
+            document.getElementById("demo").classList.remove("dark-mode");
+        }
+    </script>
+    <style>
+        .dark-mode {
+           background-color: black;
+           color: whitesmoke;
+        }
+   </style>
+</head>
+<body>
+    <div id="demo" style="border: 1px solid black">
+    <h1>Converting theme </h1>
+    <p> Changing from light mode into dark mode </p>
+   </div>
+   <button onclick ="myFun2()">Light mode</button>
+   <button onclick ="myFun()">Dark Mode</button>
+</body>
+</html>
